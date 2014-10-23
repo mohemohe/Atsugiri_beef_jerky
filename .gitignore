@@ -181,3 +181,5 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+Atsugiri_beef_jerky/Twitter/ReceiveTokens.cs
+Atsugiri_beef_jerky/Twitter/PostTokens.cs

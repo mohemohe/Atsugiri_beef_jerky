@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atsugiri_beef_jerky", "Atsugiri_beef_jerky\Atsugiri_beef_jerky.csproj", "{045D49D2-D086-44B3-AE03-2170FA81A66C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5111BC95-66C8-4970-AFE0-8C8C1B26B7B8} = {5111BC95-66C8-4970-AFE0-8C8C1B26B7B8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lorelei", "Rhinemaidens.Lorelei\Lorelei\Lorelei.csproj", "{5111BC95-66C8-4970-AFE0-8C8C1B26B7B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{045D49D2-D086-44B3-AE03-2170FA81A66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045D49D2-D086-44B3-AE03-2170FA81A66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045D49D2-D086-44B3-AE03-2170FA81A66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045D49D2-D086-44B3-AE03-2170FA81A66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5111BC95-66C8-4970-AFE0-8C8C1B26B7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5111BC95-66C8-4970-AFE0-8C8C1B26B7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5111BC95-66C8-4970-AFE0-8C8C1B26B7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5111BC95-66C8-4970-AFE0-8C8C1B26B7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
