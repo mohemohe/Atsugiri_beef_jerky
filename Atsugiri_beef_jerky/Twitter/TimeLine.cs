@@ -22,7 +22,14 @@ namespace Atsugiri_beef_jerky.Twitter
 
         public void StartUserStream()
         {
-            lorelei.ConnectUserStream(false);
+            lorelei.ConnectUserStream(true);
+        }
+
+        public void ReconnectUserStream()
+        {
+            lorelei.DisconnectUserStream();
+            Thread.Sleep(500);
+            lorelei.ConnectUserStream(true);
         }
 
         public TweetInfoPack GetTweet()
